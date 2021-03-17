@@ -1,0 +1,9 @@
+.ActivitiesBlock {
+    display: flex;
+    gap: 5%;
+    padding: 5%;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}

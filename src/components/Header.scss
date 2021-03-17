@@ -1,0 +1,18 @@
+.Header {
+
+    .Intro{
+        background-image: url('../assets/pictures/ocean-christoffer-engstrom-wc9avd2RaN0-unsplash.jpg');
+        background-size: cover;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 3rem 0;
+    }
+
+    h1 {
+        color: var(--navigation-blue);
+        text-shadow: 2px 2px 3px white;
+        font-size: 5vw;
+    }
+}

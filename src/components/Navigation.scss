@@ -1,0 +1,20 @@
+.Navigation {
+    display: flex;
+    background-color: var(--navigation-blue);
+    color: white;
+    padding-left: 2rem;
+
+    div {
+        width: 8rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div:hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    
+}
