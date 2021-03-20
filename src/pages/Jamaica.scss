@@ -1,0 +1,32 @@
+.Jamaica {
+    position: relative;
+    
+    section {
+        display: flex;
+        background: url('../assets/pictures/jamaica_pexels-asad-photo-maldives-1450353.jpg');
+        background-size: cover;
+        height: 80vw;
+    }
+
+    .travelInfo {
+        position: absolute;
+        top: 10vh;
+        right: 47vw;
+        bottom: 3vw;
+        left: 2vw;
+        overflow: auto;
+        background: rgba(var(--navigation-blue-rgb), 0.3);
+    }
+
+    h2 {
+        color: white;
+        text-shadow: 1px 1px 4px var(--navigation-blue);
+        text-align: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        section {
+            flex-direction: column;
+        } 
+    }
+}

@@ -1,0 +1,47 @@
+.WaterAerobics {
+
+    section {
+        background: url('../assets/pictures/water-aerobics-pexels-jennifer-polanco-3925081.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30vw;
+    }
+
+    h2 {
+        margin: 5vw;
+    }
+
+    .info {
+        display: flex;
+    }
+
+    ul {
+        font-weight: bold;
+    }
+
+    ul li {
+        font-weight: normal;
+    }
+
+    .schedule {
+      background: rgba(var(--quote-blue-rgb), 0.6);
+      color: white;
+      text-shadow: 1px 1px 4px var(--navigation-blue);
+      border-radius: 5px;
+      padding-left: 4vw;
+      padding-right: 4vw;
+ 
+
+    }
+
+    ul {
+        padding: 0 40px;
+    }
+
+    li {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,21 @@
+.Snorkelling {
+
+    section {
+        background: url('../assets/pictures/snorkelling-pexels-daniel-torobekov-5015532.jpg');
+        background-size: cover;
+        height: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        background-color: rgba(var(--warm-orange-rgb), 0.6);
+        border-radius: 5px;
+        padding: 5%;
+    }
+
+    h2 {
+        text-shadow: 1px 1px 4px white;
+    }
+}
