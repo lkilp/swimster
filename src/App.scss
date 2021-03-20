@@ -1,8 +1,13 @@
 .App {
   --navigation-blue: rgb(3, 3, 70);
+  --warm-orange: rgb(252, 185, 86);
+  --quote-blue: rgb(63, 165, 190);
+
+  --quote-blue-rgb: 63, 165, 190;
+  --warm-orange-rgb: 252, 185, 86;
+  --navigation-blue-rgb: 3, 3, 70;
 
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-
