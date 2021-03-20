@@ -1,0 +1,13 @@
+.Gallery {
+    position: absolute;
+    top: 10vh;
+    right: 2vw;
+    bottom: 3vw;
+    left: 55vw;
+    overflow: auto;
+
+    img {
+        width: 100%;
+        margin-bottom: 1vw;
+    }
+}

@@ -9,9 +9,9 @@ import snorkelling from '../assets/pictures/snorkel-dylan-alcock-1sxp7bWFPhM-uns
 const ActivitiesBlock = () => {
     return (
         <div className='ActivitiesBlock'>
-            <Activity title='Water Aerobics' image={waterAerobics} />
-            <Activity title='Kids' image={kids} />
-            <Activity title='Snorkelling' image={snorkelling} />
+            <Activity title='Water Aerobics' link='/water-aerobics' image={waterAerobics} />
+            <Activity title='Kids' link='/kids' image={kids} />
+            <Activity title='Snorkelling' link='snorkelling' image={snorkelling} />
         </div>
     )
 }
