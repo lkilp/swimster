@@ -1,18 +1,24 @@
 .Navigation {
     display: flex;
     background-color: var(--navigation-blue);
-    color: white;
     padding-left: 2rem;
 
-    div {
+    img {
+        height: 100%;
+        margin-right: 1vw;
+    }
+
+    a {
         width: 8rem;
         height: 4rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
+        color: white;
     }
 
-    div:hover {
+    a:hover {
         cursor: pointer;
         font-weight: bold;
       }

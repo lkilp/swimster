@@ -1,0 +1,55 @@
+.Destinations {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+        gap: 5%;
+
+        a {
+            background-size: cover;
+            height: 30vw;
+            width: 30vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5vw;
+            transition: transform .4s;
+            color: white;
+            text-shadow: 2px 2px 4px var(--navigation-blue);
+            text-decoration: none;
+        }
+    
+    .Hawaii {
+        background-image: url("../assets/pictures/surf-jeremy-bishop-_CFv3bntQlQ-unsplash.jpg");
+    }
+
+    .Jamaica {
+        background-image: url("../assets/pictures/paddle-hugh-whyte-A74OwXiWxTc-unsplash (1).jpg");
+    }
+
+    & a:hover {
+        cursor: pointer;
+        font-size: 5vw;
+        transform: rotate(10deg);
+        color: var(--warm-orange);
+        font-weight: 500;
+        text-shadow: 2px 2px 3px var(--navigation-blue);
+    }
+
+    @media screen and (max-width: 600px) {
+            & {
+            flex-direction: column;
+            }
+            
+            & a {
+                height: 80vw;
+                width: 80vw;
+                margin: 1vw;
+                font-size: 5vw;
+            }
+
+            & a:hover {
+                font-size: 7vw;
+            }
+    }
+}
