@@ -53,4 +53,11 @@
     &.group4:hover {
         background-image: url('../assets/pictures/11-14-pexels-armin-rimoldi-5269900.jpg');
     }
+
+    @media screen and (max-width: 600px) {
+        & {
+            font-size: 3vw;
+        }
+        
+    }
 }

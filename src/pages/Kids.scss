@@ -24,9 +24,16 @@
     }
 
     @media screen and (max-width: 600px) {
+
+        section {
+            height: 160vw;
+        }
         .ages {
-           height: 60vw;
+           height: 140vw;
+           margin: 0 20vw;
            gap: 2%;
+           grid-template-columns: 1fr;
+           grid-template-rows: repeat(4, 1fr);
         }       
     }
 }

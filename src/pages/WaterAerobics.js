@@ -20,7 +20,6 @@ const WaterAerobics = () => {
                         <ul>Thursday
                             <li>9AM</li>
                         </ul>
-                     
                         <ul>Saturday
                             <li>10AM</li>
                             <li>5PM</li>
