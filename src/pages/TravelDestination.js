@@ -8,9 +8,6 @@ import './TravelDestination.scss'
 
 const Travel = (props) => {
     const { country, price, locations, images } = props;
-    const style = {
-        backgroundImage: `url(${props.backgroundImage})`,
-    }
     return (      
     <div className='TravelDestination'>
         <Navigation />
