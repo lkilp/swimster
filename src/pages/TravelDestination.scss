@@ -1,0 +1,30 @@
+.TravelDestination {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .travel-content {
+        flex: 1;
+        position: relative;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .BackgroundSlider {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .TravelInfo {
+        position: relative;
+        max-width: 400px;
+    }    
+
+    @media screen and (max-width: 600px) {
+        .travel-content {
+            justify-content: center;
+        }
+        
+    }
+}
