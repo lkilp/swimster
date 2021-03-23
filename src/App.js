@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import './App.scss';
+import ScrollToTop from './components/ScrollToTop';
 import Hawaii from './pages/Hawaii';
 import Home from './pages/Home';
 import Jamaica from './pages/Jamaica';
@@ -18,31 +19,32 @@ import WaterAerobics from './pages/WaterAerobics';
 const App = () => {
   return (
     <Router>
-    <div className="App">
-      <Switch>
-          <Route path='/trips/hawaii'>
-            <Hawaii />
-          </Route>
-          <Route path='/trips/jamaica'>
-            <Jamaica />
-          </Route>
-          <Route path='/water-aerobics'>
-            <WaterAerobics />
-          </Route>
-          <Route path='/kids'>
-            <Kids />
-          </Route>
-          <Route path='/snorkelling'>
-            <Snorkelling />
-          </Route>
-          <Route path='/trips'>
-            <Trips />
-          </Route>
-          <Route path='/'>
-            <Home />
-          </Route>
-        </Switch>
-    </div>
+      <ScrollToTop />
+      <div className="App">
+        <Switch>
+            <Route path='/trips/hawaii'>
+              <Hawaii />
+            </Route>
+            <Route path='/trips/jamaica'>
+              <Jamaica />
+            </Route>
+            <Route path='/water-aerobics'>
+              <WaterAerobics />
+            </Route>
+            <Route path='/kids'>
+              <Kids />
+            </Route>
+            <Route path='/snorkelling'>
+              <Snorkelling />
+            </Route>
+            <Route path='/trips'>
+              <Trips />
+            </Route>
+            <Route path='/'>
+              <Home />
+            </Route>
+          </Switch>
+      </div>
     </Router>
   );
 }
