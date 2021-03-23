@@ -1,9 +1,14 @@
 .Footer {
 
+    .footerImage {
+        background-image: url('../assets/pictures/waves-andrzej-kryszpiniuk-4wFqHZ1ONnM-unsplash.jpg');
+        background-size: cover;
+        height: 30vw;
+    }
+
+    @media screen and (max-width: 600px) {
         .footerImage {
-            background-image: url('../assets/pictures/waves-andrzej-kryszpiniuk-4wFqHZ1ONnM-unsplash.jpg');
-            background-size: cover;
-            height: 30vw;
-        }
-    
+            background-image: url('../assets/pictures/waves-andrzej-kryszpiniuk-4wFqHZ1ONnM-unsplash mobile.jpg');
+        }    
+    }   
 }

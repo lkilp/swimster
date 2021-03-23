@@ -15,4 +15,11 @@
         text-shadow: 2px 2px 3px white;
         font-size: 5vw;
     }
+
+    @media screen and (max-width: 600px) {
+
+        .Intro {
+            background-image: url('../assets/pictures/ocean-christoffer-engstrom-wc9avd2RaN0-unsplash mobile.jpg');
+        }     
+    }
 }

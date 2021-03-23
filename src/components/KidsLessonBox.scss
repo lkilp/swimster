@@ -1,4 +1,11 @@
 .KidsLessonBox {
+    &::after{
+        position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+        content:url('../assets/pictures/0-2-pexels-barbara-ribeiro-3945007 mobile.jpg') 
+                url('../assets/pictures/3-5-pexels-porapak-apichodilok-346776 mobile.jpg') 
+                url('../assets/pictures/6-10-pexels-alexandr-podvalny-1227571 mobile.jpg') 
+                url('../assets/pictures/11-14-pexels-armin-rimoldi-5269900 mobile.jpg');
+     }
         display: flex;
         align-items: center;
         justify-content: center;
@@ -32,32 +39,29 @@
         text-shadow: none;
         justify-content: flex-end;
         padding-bottom: 2vw;
-        background-image: url('../assets/pictures/0-2-pexels-barbara-ribeiro-3945007.jpg');
-   
         color: white;
         text-shadow: 1px 1px 4px var(--navigation-blue);
     }
 
     &.group1:hover {
-        background-image: url('../assets/pictures/0-2-pexels-barbara-ribeiro-3945007.jpg');
+        background-image: url('../assets/pictures/0-2-pexels-barbara-ribeiro-3945007 mobile.jpg');
     }
 
     &.group2:hover {
-        background-image: url('../assets/pictures/3-5-pexels-porapak-apichodilok-346776.jpg');
+        background-image: url('../assets/pictures/3-5-pexels-porapak-apichodilok-346776 mobile.jpg');
     }
 
     &.group3:hover {
-        background-image: url('../assets/pictures/6-10-pexels-alexandr-podvalny-1227571.jpg');
+        background-image: url('../assets/pictures/6-10-pexels-alexandr-podvalny-1227571 mobile.jpg');
     }
 
     &.group4:hover {
-        background-image: url('../assets/pictures/11-14-pexels-armin-rimoldi-5269900.jpg');
+        background-image: url('../assets/pictures/11-14-pexels-armin-rimoldi-5269900 mobile.jpg');
     }
 
     @media screen and (max-width: 600px) {
         & {
             font-size: 3vw;
-        }
-        
+        }        
     }
 }
